@@ -14,7 +14,7 @@ module FormsLab
     end
 
     post '/pirates' do
-      pry
+      binding.pry
     end
 
   end
