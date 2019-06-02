@@ -15,7 +15,7 @@ class Ship
     SHIPS
   end
 
-  # def self.clear
-  #   self.all.delete_all
-  # end
+  def self.clear
+    self = []
+  end
 end
