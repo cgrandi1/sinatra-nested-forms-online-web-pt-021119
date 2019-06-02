@@ -17,8 +17,8 @@ module FormsLab
 
       @pirate = params[:pirate]
       binding.pry
-      ships = params[:pirate][:ships][]
-      @ships = ship
+      @ship_1 = params[:pirate][:ships][0]
+      @ship_2 = params[:pirate][:ships][1]
       erb :'pirates/show'
     end
 
