@@ -16,7 +16,7 @@ module FormsLab
 
 
       @pirate = params[:pirate])
-      
+
       binding.pry
       erb :'pirates/show'
     end
