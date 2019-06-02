@@ -15,7 +15,7 @@ module FormsLab
     post '/pirates' do
       # binding.pry
 
-      erb :'pirate/show'
+      erb :'pirates/show'
     end
 
   end
