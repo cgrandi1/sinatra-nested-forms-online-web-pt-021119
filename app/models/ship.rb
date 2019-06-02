@@ -16,6 +16,6 @@ class Ship
   end
 
   def self.clear
-    Ship.all = []
+    self..all = []
   end
 end
