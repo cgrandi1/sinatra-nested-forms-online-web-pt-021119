@@ -16,6 +16,6 @@ class Ship
   end
 
   def self.clear
-    self.destroy
+    self.all.destroy
   end
 end
